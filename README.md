@@ -14,8 +14,8 @@ Navigation
 
 |Command	|   Description |
 |--------|---------------|
-|         pwd | Prints current working directory. |
- ls	       List files & directories.
+| pwd | Prints current working directory. |
+ |ls	|       List files & directories.|
  ls -l	   Long format listing.
  ls -a	   Show hidden files. 
  cd <path> Change directory.
