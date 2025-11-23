@@ -59,12 +59,12 @@ Viewing Files
 
 Searching & Finding
 
-Command	                   Description
-
-grep "text" file   	       Search text.
-grep -r "text" dir      	 Recursive search.
-grep -i	                   Case insensitive search.
-find /path -name file.txt	 Find files.
+|Command|	                   Description|
+|------|-----|
+|grep "text" file   	 |      Search text.|
+|grep -r "text" dir      |	 Recursive search.|
+|grep -i	              |     Case insensitive search.|
+|find /path -name file.txt	| Find files.|
 
 
 
@@ -72,11 +72,11 @@ find /path -name file.txt	 Find files.
 
 Permissions & Ownership
 
-Command	               Description
-
-chmod 755 file	       Change permissions.
-chmod +x file	         Add execute permission.
-chown user:group file	 Change owner.
+|Command	              | Description|
+|----------|----------|
+|chmod 755 file	       |Change permissions.|
+|chmod +x file	        | Add execute permission.|
+|chown user:group file	 |Change owner.|
 
 
 
@@ -84,15 +84,15 @@ chown user:group file	 Change owner.
 
 System Information
 
-Command	  Description
-
-whoami	 Shows current user.
-uname    -a	System/kernel info.
-top	     Process monitor.
-ps aux	 Running processes.
-df -h	   Disk usage.
-du -h	   Folder/file size.
-free -h	 Memory usage.
+|Command	|  Description|
+|---------|---------|
+|whoami	| Shows current user.|
+|uname    |-a	System/kernel info.|
+|top	     |Process monitor.|
+|ps aux	 |Running processes.|
+|df -h	  | Disk usage.|
+|du -h	 |  Folder/file size.|
+|free -h	| Memory usage.|
 
 
 
@@ -100,25 +100,15 @@ free -h	 Memory usage.
 
 Networking
 
-Command	    Description
+|Command	|    Description|
+|----------|----------|
+|ip        |   a	Network interfaces.|
+|ifconfig	 |  gives you ip address and etc |
+|ping host	 | Check connectivity.|
+|ss -tulnp	 | Show active ports.|
+|ssh user@ip |	 SSH login.|
 
-ip           a	Network interfaces.
-ifconfig	   Legacy interface tool.
-ping host	  Check connectivity.
-ss -tulnp	  Show active ports.
-ssh user@ip	 SSH login.
 
-
-
----
-
-Compression
-
-Command	             Description
-
-tar -xf file.tar	   Extract tar.
-zip -r file.zip dir	 Create zip.
-unzip file.zip	     Extract zip.
 
 
 
@@ -126,11 +116,11 @@ unzip file.zip	     Extract zip.
 
 Useful Utilities
 
-Command	 Description
-
-history	 Command history.
-clear	   Clear terminal.
-date	   Show date/time.
+|Command	| Description|
+|---------|---------|
+|history|	 Command history.|
+|clear	   |Clear terminal.|
+|date	  | Show date/time.|
 
 
 
@@ -139,17 +129,15 @@ date	   Show date/time.
 3. Linux Operators
 
 
----
-
 Redirection
 
-Operator	Description
-
-  > 	    Outputoverwrite.
-  >>	    Output append.
-  <	      Input from file.
-  2>	    Error output. 
-  &>	    Both stdout + stderr.
+|Operator	|Description|
+|-----------|---------|
+|  > 	    |Outputoverwrite.|
+ | >>	   | Output append.|
+ | <	      |Input from file.|
+  |2>	 |   Error output. |
+ | &>	|    Both stdout + stderr.|
 
 
 
@@ -158,10 +146,10 @@ Operator	Description
 
 Chaining
 
-Operator	Description
-
-  ;	      Run sequentially.
-  &&	    Run if previous succeeds.
+|Operator	|Description|
+|---------|---------|
+|  ;	    |  Run sequentially.|
+ | &&	   | Run if previous succeeds.|
 	
 
 
@@ -170,13 +158,13 @@ Operator	Description
 
 Arithmetic
 
-Operator	Example
-
- +	      $((5 + 2))
- -	      $((6 - 3)) 
- *	      $((4 * 2))
- /	      $((8 / 2))
- % 	      $((10 % 3))
+|Operator	|Example |
+|------------|--------|
+| +	      |$((5 + 2))|
+ |-	      |$((6 - 3)) |
+ |*	      |$((4 * 2))|
+ |/	      |$((8 / 2))|
+ |% 	     | $((10 % 3))|
  
 
 
@@ -184,38 +172,29 @@ Operator	Example
 
 Comparison
 
-Operator	Meaning
-
--eq	      Equal
--ne	      Not equal
--gt	      Greater
--lt	      Less
--ge	      >=
--le	      <=
-
-
-
----
-
-📄 File Test Operators
-
-Test	Meaning
-
--f	File exists
--d	Directory exists
--e	Exists
--r	Readable
--w	Writable
--x	Executable
+|Operator|	Meaning|
+|--------|---------
+|-eq	 |     Equal|
+|-ne	      |Not equal|
+-|gt	      |Greater|
+|-lt	     |Less|
+|-ge	     | >=|
+|-le	     | <=|
 
 
 
 ---
 
-🧵 Wildcards
+File Test Operators
 
-Pattern	Meaning
+|Test	|Meaning|
+|------|------|
+|-f	|File exists|
+|-d	|Directory exists|
+|-e	|Exists|
+|-r	|Readable|
+|-w	|Writable|
+|-x	|Executable|
 
-*	Any characters
-?	Single character
-[a-z]	Range match
+
+---
