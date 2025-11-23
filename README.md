@@ -28,16 +28,16 @@ Navigation
 
 File & Directory Management
 
-Command	        Description
-
-mkdir <dir>	      Create directory.
-rmdir <dir>	      Remove empty directory.
-touch <file>	    Create empty file.
-cp <src> <dst>	  Copy files.
-cp -r <src> <dst>	Copy directories.
-mv <src> <dst>	  Move/rename.
-rm <file>	        Delete file.
-rm -r <dir>	      Delete directory recursively.
+|Command	 |       Description|
+|-----------|----------|
+|mkdir <dir>	     | Create directory.|
+|rmdir <dir>	    |  Remove empty directory.|
+|touch <file>	   | Create empty file.|
+|cp <src> <dst>	  |Copy files.|
+|cp -r <src> <dst>|	Copy directories.|
+|mv <src> <dst>	  |Move/rename.|
+|rm <file>	     |   Delete file.|
+|rm -r <dir>	|      Delete directory recursively.|
 
 
 
