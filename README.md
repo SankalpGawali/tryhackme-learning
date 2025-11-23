@@ -16,11 +16,11 @@ Navigation
 |--------|---------------|
 | pwd | Prints current working directory. |
  |ls	|       List files & directories.|
- ls -l	   Long format listing.
- ls -a	   Show hidden files. 
- cd <path> Change directory.
- cd ..	   Go back one directory.
- cd ~	     Home directory.
+ |ls -l	 |  Long format listing.|
+ |ls -a	   |Show hidden files. |
+ |cd <path> |Change directory.|
+ |cd ..	   |Go back one directory.|
+ |cd ~	   |  Home directory.|
 
 
 
