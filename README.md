@@ -4,8 +4,8 @@ This repository contains my structured, detailed, and well-documented notes from
 
 It includes:
 
-|Essential Linux Commands|
-|Linux Operators|
+|Essential Linux Commands  &
+Linux Operators|
 
 ---
 2. Linux Commands
