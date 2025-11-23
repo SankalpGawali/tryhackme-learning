@@ -45,13 +45,13 @@ File & Directory Management
 
 Viewing Files
 
-Command	        Description
-
-cat <file>	    Print file content.
-less <file>	    View file interactively.
-head <file>	    First 10 lines.
-tail <file>	    Last 10 lines.
-tail -f <file>	Live updates from file.
+|Command	 |       Description|
+|------------ |------------------------|
+|cat <file>	   | Print file content.|
+|less <file>	|    View file interactively.|
+|head <file>	 |   First 10 lines.|
+|tail <file>	  |  Last 10 lines.|
+|tail -f <file>	|Live updates from file.|
 
 
 
