@@ -12,9 +12,9 @@ Linux Operators
 
 Navigation
 
-Command	   Description
-
- pwd	     Prints current working directory.
+|Command	|   Description |
+|--------|---------------|
+| pwd	    | Prints current working directory. |
  ls	       List files & directories.
  ls -l	   Long format listing.
  ls -a	   Show hidden files. 
@@ -162,7 +162,7 @@ Operator	Description
 
   ;	      Run sequentially.
   &&	    Run if previous succeeds.
-`	
+	
 
 
 
